@@ -51,9 +51,6 @@ Use the Makefile to build documents:
 ```bash
 # Build organizational structure document
 make org
-
-# Build AI transformation report
-make report
 ```
 
 ### Output
