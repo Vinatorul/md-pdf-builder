@@ -39,6 +39,9 @@ while IFS= read -r file || [[ -n "$file" ]]; do
   printf '\n\n\\newpage\n\n' >> "$TMP_FILE"
 done < "$MANIFEST"
 
+MERMAID_FILTER_WIDTH=2400 \
+MERMAID_FILTER_HEIGHT=1800 \
+MERMAID_FILTER_SCALE=3 \
 pandoc \
   --from markdown \
   --metadata-file "$METADATA" \
