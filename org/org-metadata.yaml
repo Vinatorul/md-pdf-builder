@@ -1,0 +1,27 @@
+lang: ru-RU
+toc: false
+toc-depth: 2
+number-sections: false
+colorlinks: false
+geometry:
+  - margin=1in
+fontsize: 11pt
+mainfont: Arial Unicode MS
+monofont: Arial Unicode MS
+header-includes:
+  - |
+    ```{=latex}
+    \pagestyle{plain}
+    ```
+include-before:
+  - |
+    \begin{titlepage}
+    \centering
+    \vspace*{3cm}
+    {\Huge\bfseries Organizational Structure\par}
+    \vspace{1cm}
+    {\Large Current State\par}
+    \vfill
+    \end{titlepage}
+    \tableofcontents
+    \newpage
